@@ -1,0 +1,46 @@
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 74px;
+  font-weight: 700;
+  color: #801d5c;
+  text-align: end;
+}
+
+.subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 46px;
+  font-weight: 400;
+  color: #d16ba5;
+  text-align: end;
+}
+.subtitle span {
+  color: #801d5c;
+}
+
+.date {
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  color: #d16ba5;
+  text-align: end;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 6px 18px;
+}
+
+.prize {
+  font-family: "Poppins", sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  color: #d16ba5;
+  text-align: end;
+}
+
+.prize span {
+  color: #801d5c;
+  font-weight: 800;
+}
