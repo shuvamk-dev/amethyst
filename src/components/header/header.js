@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from "react";
 import "./header.css";
 import { CSSTransition } from "react-transition-group";
+import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isNavVisible, setNavVisibility] = useState(false);
@@ -31,7 +33,14 @@ export default function Header() {
 
   return (
     <header className="Header">
-      <img src={require("../../assets/logo.png")} className="logo" />
+      <img
+        src={logo}
+        className="logo"
+        style={{
+          height: "60px",
+        }}
+        alt="Logo"
+      />
 
       <CSSTransition
         in={!isSmallScreen || isNavVisible}
@@ -40,10 +49,11 @@ export default function Header() {
         unmountOnExit
       >
         <nav className="Nav">
-          <a href="/">Home</a>
-          <a href="/">Articles</a>
-          <a href="/">About</a>
-          <button>Logout</button>
+          <Link to="/">Home</Link>
+          <Link to="/events">Events</Link>
+
+          <Link to="/memoirs">Memoirs</Link>
+          <Link to="/team">Team</Link>
         </nav>
       </CSSTransition>
       <button onClick={toggleNav} className="Burger">

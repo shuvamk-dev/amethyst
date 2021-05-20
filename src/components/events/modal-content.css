@@ -1,0 +1,120 @@
+.modal-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 24px;
+}
+
+.modal-banner {
+  width: 100%;
+}
+
+.gig-name {
+  font-family: "Poppins", sans-serif;
+  color: #801d5c;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 4px 0px;
+}
+
+.gig-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  margin: 6px 0px;
+}
+
+.gig-icons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 12px auto;
+}
+
+.gig-icon {
+  width: 30%;
+}
+
+.gig-prize {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #801d5c;
+  font-weight: 600;
+}
+
+.gig-date {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #801d5c;
+  font-weight: 600;
+}
+
+.gig-rule {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #801d5c;
+  font-weight: 600;
+}
+
+.gig-rule > a {
+  text-decoration: none;
+  color: #801d5c;
+}
+
+.gig-judge {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gig-judges {
+  display: flex;
+  justify-content: center;
+}
+.judge-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  color: #801d5c;
+}
+.judge-image {
+  height: 360px;
+  width: 280px;
+  object-fit: contain;
+}
+
+.event-heads {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #801d5c;
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+}
+.register {
+  font-family: "Poppins", sans-serif;
+  background-color: #801d5c;
+  color: white;
+  font-weight: 700;
+  font-size: 28px;
+  width: fit-content;
+  padding: 6px 42px;
+  border-radius: 12px;
+  align-self: center;
+}
+.register > a {
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .gig-icons {
+    flex-wrap: wrap;
+  }
+  .gig-judges {
+    flex-direction: column;
+  }
+}

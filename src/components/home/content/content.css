@@ -44,3 +44,53 @@
   color: #801d5c;
   font-weight: 800;
 }
+
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.icon-div {
+  margin: 6px 12px;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 12px;
+}
+
+.contact-icon {
+  height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    position: relative;
+    top: -90px;
+  }
+  .title {
+    font-size: 48px;
+    text-align: center;
+  }
+  .subtitle {
+    font-size: 32px;
+    text-align: center;
+    color: #801d5c;
+  }
+  .date {
+    font-size: 28px;
+    text-align: center;
+  }
+  .prize {
+    font-size: 32px;
+    text-align: center;
+    color: #801d5c;
+  }
+  .contact {
+    justify-content: center;
+  }
+}

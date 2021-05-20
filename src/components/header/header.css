@@ -14,6 +14,7 @@
   -webkit-backdrop-filter: blur(2px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  z-index: 2;
 }
 
 .Logo {
@@ -77,6 +78,7 @@
 @media (max-width: 700px) {
   .Header {
     grid-template-areas: "logo burger" "nav nav";
+    width: 98%;
   }
   .Nav {
     grid-template-rows: repeat(4, auto);

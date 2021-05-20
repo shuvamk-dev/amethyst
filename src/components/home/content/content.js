@@ -12,7 +12,22 @@ function Content() {
       <div className="prize">
         Prizes worth <span>3.5 Lacs+</span>{" "}
       </div>
-      <div className="contact">Contact</div>
+      <div className="contact">
+        <div className="icon-div">
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-128/facebook-263-721950.png"
+            className="contact-icon"
+            alt="facebook"
+          />
+        </div>
+        <div className="icon-div">
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-128/instagram-216-721958.png"
+            className="contact-icon"
+            alt="facebook"
+          />
+        </div>
+      </div>
     </div>
   );
 }

@@ -13,7 +13,6 @@ function Home() {
           <Content />
         </div>
       </div>
-      <div>Contact</div>
     </div>
   );
 }
