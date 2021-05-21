@@ -1,0 +1,19 @@
+.memoirs {
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+.memoir-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #801d5c;
+  text-align: center;
+  margin: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .memoir-title {
+    font-size: 24px;
+  }
+}

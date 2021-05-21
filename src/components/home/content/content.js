@@ -13,6 +13,9 @@ function Content() {
         Prizes worth <span>3.5 Lacs+</span>{" "}
       </div>
       <div className="contact">
+        <div className="home-register">
+          <a href="https://hij8lgvvmue.typeform.com/to/utPDgrTb">Register</a>
+        </div>
         <div className="icon-div">
           <img
             src="https://cdn.iconscout.com/icon/free/png-128/facebook-263-721950.png"
