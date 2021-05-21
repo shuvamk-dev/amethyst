@@ -40,24 +40,6 @@
 .Nav a:hover {
   transform: scale(1.1);
 }
-.Nav button {
-  padding: 10px;
-  outline: none;
-  border: none;
-  font-size: 20px;
-  color: #fff;
-  font-weight: 600;
-  background-color: rgba(255, 0, 0, 0.5);
-  box-shadow: 0px 5px 0px 0px rgba(255, 0, 0, 0.25);
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 70ms;
-}
-
-.Nav button:active {
-  transform: translateY(3px);
-  box-shadow: 0px 2px 0px 0px rgba(255, 0, 0, 0.25);
-}
 
 .Burger {
   display: none;
@@ -88,15 +70,14 @@
     padding: 30px 0 30px;
     /* background: rgba(40, 44, 47, 0.95);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
-    background: rgba(255, 255, 255, 0.15);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+
+    background-color: #fff;
+    border-radius: 12px;
     height: auto;
+    color: #801d5c;
+  }
+  .Nav a {
+    color: #801d5c;
   }
   .Burger {
     display: inline;

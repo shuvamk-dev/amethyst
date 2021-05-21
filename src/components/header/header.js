@@ -49,15 +49,84 @@ export default function Header() {
         unmountOnExit
       >
         <nav className="Nav">
-          <Link to="/">Home</Link>
-          <Link to="/events">Events</Link>
+          <Link
+            to="/"
+            style={{
+              display: "flex",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src="https://cdn.iconscout.com/icon/free/png-128/house-1439754-1214326.png"
+              style={{
+                height: "25px",
+              }}
+              alt="icon"
+            />
+            Home
+          </Link>
+          <Link
+            to="/events"
+            style={{
+              display: "flex",
+              alignItems: "center",
+            }}
+          >
+            {" "}
+            <img
+              src="https://cdn.iconscout.com/icon/premium/png-128-thumb/events-2002870-1687050.png"
+              style={{
+                height: "25px",
+              }}
+              alt="icon"
+            />
+            Events
+          </Link>
 
-          <Link to="/memoirs">Memoirs</Link>
-          <Link to="/team">Team</Link>
+          <Link
+            to="/memoirs"
+            style={{
+              display: "flex",
+              alignItems: "center",
+            }}
+          >
+            {" "}
+            <img
+              src="https://cdn.iconscout.com/icon/free/png-128/camera-photo-image-photography-video-videography-capture-front-side-30441.png"
+              style={{
+                height: "25px",
+              }}
+              alt="icon"
+            />
+            Memoirs
+          </Link>
+          <Link
+            to="/team"
+            style={{
+              display: "flex",
+              alignItems: "center",
+            }}
+          >
+            {" "}
+            <img
+              src="https://cdn.iconscout.com/icon/free/png-128/team-2635272-2187599.png"
+              style={{
+                height: "25px",
+              }}
+              alt="icon"
+            />
+            Team
+          </Link>
         </nav>
       </CSSTransition>
       <button onClick={toggleNav} className="Burger">
-        🍔
+        <img
+          src="https://cdn.iconscout.com/icon/free/png-128/menu-1767818-1502398.png"
+          style={{
+            height: "50px",
+          }}
+          alt="menu"
+        />
       </button>
     </header>
   );

@@ -1,0 +1,77 @@
+.team-card {
+  position: relative;
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 180px;
+  width: 300px;
+  margin: 12px;
+}
+
+.team-photo {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  left: -80px;
+  top: 35%;
+}
+
+.team-designation {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #d16ba5;
+  text-align: right;
+  width: 80%;
+  align-self: flex-end;
+}
+.team-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #801d5c;
+  text-align: right;
+}
+
+.team-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+.team-icon {
+  height: 40px;
+  margin: 6px 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .team-photo {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: -50px;
+    top: 40%;
+  }
+  .team-card {
+    width: 260px;
+  }
+  .team-parent {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .team-designation {
+    font-size: 22px;
+  }
+}

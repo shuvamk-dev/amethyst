@@ -3,3 +3,11 @@
   width: 80%;
   padding-bottom: 40px;
 }
+
+@media only screen and (max-width: 600px) {
+  .team {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

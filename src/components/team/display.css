@@ -1,0 +1,65 @@
+.display {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.heads {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.faculty {
+  margin: 24px;
+}
+
+.secretary {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 24px;
+  flex-wrap: wrap;
+}
+
+.core {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.core-team {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.core-card {
+  margin: 24px;
+}
+
+.display-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  .core-team {
+    justify-content: flex-end !important;
+  }
+  .core-card {
+    margin: 6px 0px;
+  }
+  .faculty {
+    margin: 6px 0px;
+  }
+}

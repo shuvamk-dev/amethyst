@@ -44,8 +44,8 @@ export const Core = [
     facebook: "https://www.facebook.com/iamakashbhati",
   },
   {
-    name: "Akash Bhati",
-    designation: "Secretary, Fine Arts Club",
+    name: "Abhilash Trivedi",
+    designation: "Secretary, Magazine Board",
     image: require("../assets/images/team/bhati.jpg"),
     insta: "https://www.instagram.com/iamakashbhati/",
     facebook: "https://www.facebook.com/iamakashbhati",
