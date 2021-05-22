@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/amethyst/static/css/main.e8a6bf42.chunk.css",
-    "main.js": "/amethyst/static/js/main.524032d7.chunk.js",
-    "main.js.map": "/amethyst/static/js/main.524032d7.chunk.js.map",
+    "main.css": "/amethyst/static/css/main.201d00a4.chunk.css",
+    "main.js": "/amethyst/static/js/main.4fd2b730.chunk.js",
+    "main.js.map": "/amethyst/static/js/main.4fd2b730.chunk.js.map",
     "runtime-main.js": "/amethyst/static/js/runtime-main.cc2f7eee.js",
     "runtime-main.js.map": "/amethyst/static/js/runtime-main.cc2f7eee.js.map",
     "static/css/2.1fe20c78.chunk.css": "/amethyst/static/css/2.1fe20c78.chunk.css",
@@ -12,9 +12,10 @@
     "static/js/3.6f073883.chunk.js.map": "/amethyst/static/js/3.6f073883.chunk.js.map",
     "index.html": "/amethyst/index.html",
     "static/css/2.1fe20c78.chunk.css.map": "/amethyst/static/css/2.1fe20c78.chunk.css.map",
-    "static/css/main.e8a6bf42.chunk.css.map": "/amethyst/static/css/main.e8a6bf42.chunk.css.map",
+    "static/css/main.201d00a4.chunk.css.map": "/amethyst/static/css/main.201d00a4.chunk.css.map",
     "static/js/2.5d3c0305.chunk.js.LICENSE.txt": "/amethyst/static/js/2.5d3c0305.chunk.js.LICENSE.txt",
     "static/media/aanchal.jpeg": "/amethyst/static/media/aanchal.c4e36648.jpeg",
+    "static/media/amethyst.6b09a62f.jpg": "/amethyst/static/media/amethyst.6b09a62f.jpg",
     "static/media/anjali.jpeg": "/amethyst/static/media/anjali.e279e798.jpeg",
     "static/media/arnab.png": "/amethyst/static/media/arnab.07cc9e9a.png",
     "static/media/bhati.jpg": "/amethyst/static/media/bhati.c1ea7218.jpg",
@@ -24,7 +25,7 @@
     "static/media/mask.9ec64b07.mp4": "/amethyst/static/media/mask.9ec64b07.mp4",
     "static/media/priya.png": "/amethyst/static/media/priya.023ef52b.png",
     "static/media/prof.png": "/amethyst/static/media/prof.fe1012a1.png",
-    "static/media/rai.jpg": "/amethyst/static/media/rai.cc324585.jpg",
+    "static/media/rai.jpg": "/amethyst/static/media/rai.272d4194.jpg",
     "static/media/rohan.jpeg": "/amethyst/static/media/rohan.1d1c7c66.jpeg",
     "static/media/sachin.jpg": "/amethyst/static/media/sachin.e12b9c6f.jpg",
     "static/media/sankalp.jpeg": "/amethyst/static/media/sankalp.10e57001.jpeg",
@@ -39,7 +40,7 @@
     "static/js/runtime-main.cc2f7eee.js",
     "static/css/2.1fe20c78.chunk.css",
     "static/js/2.5d3c0305.chunk.js",
-    "static/css/main.e8a6bf42.chunk.css",
-    "static/js/main.524032d7.chunk.js"
+    "static/css/main.201d00a4.chunk.css",
+    "static/js/main.4fd2b730.chunk.js"
   ]
 }
