@@ -1,6 +1,5 @@
 {
   "name": "amethyst",
-  "homepage": "http://shuvamk.github.io/amethyst",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
