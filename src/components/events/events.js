@@ -13,6 +13,27 @@ function Events() {
           return <EventCard gig={gig} />;
         })}
       </div>
+      <div className="other-events">
+        <div className="other-heading">Visit Our Other Events</div>
+        <div className="other-event">
+          <a
+            href="https://aitartexhibition.in"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Art Exhibition
+          </a>
+        </div>
+        <div className="other-event">
+          <a
+            href="https://solutions21.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Solutions '21
+          </a>
+        </div>
+      </div>
     </div>
   );
 }

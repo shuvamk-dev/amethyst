@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/amethyst.jpg";
 
 function About() {
   return (
