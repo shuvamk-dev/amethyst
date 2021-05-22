@@ -1,0 +1,54 @@
+.club-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 320px;
+  height: 200px;
+  margin-top: 16px;
+}
+.club-parent {
+  margin-right: 80px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.club-logo {
+  height: 220px;
+  width: 260px;
+  object-fit: contain;
+  position: absolute;
+  left: -20%;
+  bottom: -20%;
+}
+
+.club-icons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 20px;
+  top: 60px;
+}
+
+.club-icon {
+  height: 40px;
+  width: 40px;
+  margin: 12px;
+}
+
+.club-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .club-parent {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0px;
+  }
+}

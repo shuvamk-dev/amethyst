@@ -55,6 +55,7 @@ export default function Header() {
               display: "flex",
               alignItems: "center",
             }}
+            onClick={toggleNav}
           >
             <img
               src="https://cdn.iconscout.com/icon/free/png-128/house-1439754-1214326.png"
@@ -71,6 +72,7 @@ export default function Header() {
               display: "flex",
               alignItems: "center",
             }}
+            onClick={toggleNav}
           >
             {" "}
             <img
@@ -89,6 +91,7 @@ export default function Header() {
               display: "flex",
               alignItems: "center",
             }}
+            onClick={toggleNav}
           >
             {" "}
             <img
@@ -106,6 +109,7 @@ export default function Header() {
               display: "flex",
               alignItems: "center",
             }}
+            onClick={toggleNav}
           >
             {" "}
             <img

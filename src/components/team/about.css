@@ -30,9 +30,9 @@
   color: #801d5c;
 }
 .about-desc {
-  font-family: "Poppins", sans-serif;
-  font-size: 28px;
-  font-weight: 700;
+  font-family: "Courgette", cursive;
+  font-size: 26px;
+  font-weight: 500;
 }
 .about-parent {
   display: flex;

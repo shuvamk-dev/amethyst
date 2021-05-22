@@ -19,6 +19,7 @@
   position: absolute;
   left: -60px;
   top: 30%;
+  object-fit: cover;
 }
 
 .cult-title {
@@ -28,9 +29,10 @@
   color: #801d5c;
 }
 .cult-desc {
-  font-family: "Poppins", sans-serif;
+  font-family: "Courgette", cursive;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 500;
+  padding-right: 12px;
 }
 @media only screen and (max-width: 600px) {
   .cult-card {
@@ -46,6 +48,7 @@
     position: absolute;
     top: -60px;
     left: 30%;
+    object-fit: cover;
   }
 
   .cult-title {

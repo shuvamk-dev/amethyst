@@ -5,11 +5,18 @@
   flex-direction: column;
   padding-bottom: 24px;
 }
-
-.modal-banner {
-  width: 100%;
+.modal-image-conatiner {
+  display: flex;
+  justify-content: center;
 }
-
+.modal-banner {
+  width: 60%;
+}
+.gig-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .gig-name {
   font-family: "Poppins", sans-serif;
   color: #801d5c;
@@ -72,7 +79,7 @@
 
 .gig-judges {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .judge-name {
   font-family: "Poppins", sans-serif;
@@ -83,7 +90,7 @@
 .judge-image {
   height: 360px;
   width: 280px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .event-heads {
@@ -105,10 +112,17 @@
   padding: 6px 42px;
   border-radius: 12px;
   align-self: center;
+  margin-top: 24px;
 }
 .register > a {
   text-decoration: none;
   color: white;
+}
+.judge-number {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #801d5c;
 }
 @media only screen and (max-width: 600px) {
   .gig-icons {
@@ -116,5 +130,8 @@
   }
   .gig-judges {
     flex-direction: column;
+  }
+  .modal-banner {
+    width: 100%;
   }
 }

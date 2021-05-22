@@ -1,0 +1,36 @@
+.masks {
+  height: 360px;
+}
+
+.bottom {
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.bottom-desc {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 12px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .masks {
+    width: 320px;
+  }
+  .bottom {
+    flex-direction: column-reverse;
+  }
+  .bottom-desc {
+    margin-right: 0px;
+    padding: 12px;
+  }
+}

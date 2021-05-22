@@ -44,7 +44,15 @@
   font-family: "Poppins", sans-serif;
   color: #801d5c;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 800;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 4px;
+  padding-right: 60px;
 }
 .card-label {
   position: absolute;
@@ -70,4 +78,16 @@
   background: #b2dbbf;
   max-width: 500px;
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-title {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 2.5px;
+    padding-right: 40px;
+  }
+  .card-label {
+    padding-right: 30px;
+  }
 }

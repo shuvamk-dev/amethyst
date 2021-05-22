@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./about";
+import Clubs from "./clubs";
 import CultCard from "./cult-card";
 import Display from "./display";
 import "./team.css";
@@ -10,6 +11,7 @@ function Team() {
       <CultCard />
       <About />
       <Display />
+      <Clubs />
     </div>
   );
 }

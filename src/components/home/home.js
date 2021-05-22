@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import banner from "../../assets/logo.png";
 import Content from "./content/content";
+import Bottom from "./content/bottom";
 function Home() {
   return (
     <div className="home">
@@ -13,6 +14,7 @@ function Home() {
           <Content />
         </div>
       </div>
+      <Bottom />
     </div>
   );
 }

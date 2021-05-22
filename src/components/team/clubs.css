@@ -1,0 +1,44 @@
+.quote {
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 16px;
+  text-align: center;
+  color: white;
+}
+
+.club-div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.club-logo-img {
+  height: 140px;
+}
+
+.bottom-logos {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.logo-container {
+  padding: 6px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+@media only screen and (max-width: 600px) {
+  .club-logo-img {
+    height: 50px;
+  }
+  .logo-container {
+    padding: 3px;
+  }
+}

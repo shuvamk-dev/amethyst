@@ -5,7 +5,7 @@ function ModalContent({ gig }) {
   return (
     <div className="modal-content">
       <div className="gig-name">{gig.name}</div>
-      <div>
+      <div className="modal-image-conatiner">
         <img src={gig.image} className="modal-banner" alt={gig.name} />
       </div>
       <div className="gig-description">{gig.description}</div>
@@ -36,7 +36,9 @@ function ModalContent({ gig }) {
           />
 
           <div className="gig-rule">
-            <a href={gig.ruleBook}>Rule Book</a>
+            <a href={gig.ruleBook} target="_blank" rel="noopener noreferrer ">
+              Rule Book
+            </a>
           </div>
         </div>
       </div>
@@ -52,14 +54,38 @@ function ModalContent({ gig }) {
               //     backgroundRepeat: "no-repeat",
               //   }}
             >
-              <img src={item.image} className="judge-image" alt="imag" />
+              <img
+                src={item.image.default}
+                className="judge-image"
+                alt="imag"
+              />
               <div className="judge-name">{item.name}</div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  marginBottom: "16px",
+                }}
+              >
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-128/whatsapp-135-493160.png"
+                  className="team-icon"
+                  alt="facebook"
+                />
+                <div className="judge-number"> {item.contact}</div>
+              </div>
             </div>
           );
         })}
       </div>
       <div className="register">
-        <a href="https://hij8lgvvmue.typeform.com/to/utPDgrTb">REGISTER</a>
+        <a
+          href="https://hij8lgvvmue.typeform.com/to/utPDgrTb"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          REGISTER
+        </a>
       </div>
     </div>
   );
