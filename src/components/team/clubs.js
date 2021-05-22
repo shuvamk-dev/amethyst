@@ -1,10 +1,8 @@
 import React from "react";
-import { ClubData } from "../../data/club-data";
-import ClubCard from "./club-card";
+
 import "./clubs.css";
 
 function Clubs() {
-  const clubData = ClubData;
   return (
     <div>
       {/* <div className="quote">

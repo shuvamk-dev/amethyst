@@ -9,7 +9,7 @@ function EventCard({ gig }) {
 
   const onOpenModal = () => setOpen(true);
   const onCloseModal = () => setOpen(false);
-  const bg = gig.image;
+
   return (
     <div className="card">
       <Modal open={open} onClose={onCloseModal} center>
